@@ -1,4 +1,8 @@
 def h_index(publications):
+    """
+    :param publications: list of number of views of publications
+    :return: int
+    """
     publications = sorted(publications)
     N = len(publications)
     if N > 1:
